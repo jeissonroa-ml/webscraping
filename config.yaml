@@ -1,0 +1,14 @@
+news_sites:
+    eltiempo:
+        url: https://www.eltiempo.com
+        queries:
+          #homepage_article_links: '.default-menu ul'
+          homepage_article_links: '.title-container a'
+          article_body: '.contenido p'
+          article_title: '.titulo h1'
+    elpais:
+        url: https://www.elpais.com/america
+        queries:
+          homepage_article_links: 'h2 > a'
+          article_body: '.article_body'
+          article_title: '.article-header h1'
